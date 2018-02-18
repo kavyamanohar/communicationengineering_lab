@@ -8,6 +8,12 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{epstopdf}
+\usepackage{fontspec}
+\usepackage{geometry}
+
+\geometry{
+	a4paper}
+
 
 \definecolor{dark-red}{rgb}{0.4,0.15,0.15}
 \definecolor{dark-blue}{rgb}{0.15,0.15,0.8}
@@ -16,7 +22,7 @@
     colorlinks, linkcolor={dark-blue},
     citecolor={dark-blue}, urlcolor={medium-blue}
 }
-
+\setromanfont[BoldFont={Gentium Basic Bold},ItalicFont={Gentium Italic}]{Gentium}
 \usepackage{appendix}
 %\usepackage{wrapfig}
 %\usepackage{lscape}
@@ -96,6 +102,7 @@ This work is licensed under a Creative Commons Attribution-Share Alike 4.0 India
 \input{chapters/pwm.tex}
 \input{chapters/ppm.tex}
 \input{chapters/bask.tex}
+\input{chapters/bpsk.tex}
 
 
 
