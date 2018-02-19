@@ -15,8 +15,8 @@ To transmit a symbol '0' the signal $ s(t) =0 $ is transmitted.
 The signal $s(t)$ contains some complete cycles of carrier frequency $f_c$. The BASK waveform looks like an On and Off of the signal. There fore it isalso known as ON-OFF Keying.
 
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{pam1.png}
-\caption{BASK Modulator}
+\includegraphics[width=0.6\textwidth]{bask-waveforms.jpg}
+\caption{BASK waveforms}
 \label{baskmod}
 \end{figure}
 
@@ -45,18 +45,19 @@ Choose $R_d=\ 1k\Omega$ standard resistor value.\\
 
 The resulting sequency may not be a perfect binary square wave. It can be transformed to a perfect binary sequence by using a threshold detector. The threshold level may adjusted using a $5 k\Omega$ pot.
 
+\clearpage
 \section*{Circuit Diagram}
 
 The BASK generation using analog switching IC 4046 is shown in Figure \ref{bask-gen} and demodulation using envelop detection technique is shown in Figure \ref{bask-det}.
 
 \begin{figure}
-\includegraphics[height= 6cm, width=\textwidth, trim=5cm 3cm 4cm 4cm,clip=true]{pamckt1.png}
+\includegraphics[width=0.8\textwidth]{bask.png}
 \caption{BASK generation Circuit}
 \label{bask-gen}
 \end{figure}
 
 \begin{figure}
-	\includegraphics[height= 6cm, width=\textwidth, trim=5cm 3cm 4cm 4cm,clip=true]{pamckt1.png}
+	\includegraphics[width=0.8\textwidth]{bask-demod.png}
 	\caption{BASK Demodulation Circuit}
 	\label{bask-det}
 \end{figure}

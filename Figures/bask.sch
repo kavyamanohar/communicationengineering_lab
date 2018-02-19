@@ -1,0 +1,43 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-B.sym
+C 49200 47900 1 0 0 4066-2.sym
+{
+T 49500 48950 5 10 0 0 0 0 1
+device=4066
+T 49500 49150 5 10 0 0 0 0 1
+footprint=DIP14
+}
+C 51300 47600 1 90 0 resistor-1.sym
+{
+T 50900 47900 5 10 0 0 90 0 1
+device=RESISTOR
+T 51000 47800 5 10 1 1 90 0 1
+refdes=1k
+}
+N 49200 48500 48300 48500 4
+T 47800 48600 9 10 1 0 0 0 2
+Carrier Signal
+10 kHz, 8 Vpp
+T 49400 46800 3 10 1 0 0 0 2
+Binary Data Signal
+1 kHz, 10 Vpp
+T 51100 48700 9 10 1 0 0 0 1
+BASK output
+C 48000 47300 1 0 0 vsin-1.sym
+{
+T 48700 48150 5 10 0 0 0 0 1
+device=vsin
+T 48700 48350 5 10 0 0 0 0 1
+footprint=none
+}
+C 48900 46900 1 0 0 vpulse-1.sym
+{
+T 49600 47750 5 10 0 0 0 0 1
+device=vpulse
+T 49600 47950 5 10 0 0 0 0 1
+footprint=none
+}
+C 48200 47000 1 0 0 gnd-1.sym
+C 49100 46600 1 0 0 gnd-1.sym
+C 51100 47300 1 0 0 gnd-1.sym
+N 50800 48500 51600 48500 4
